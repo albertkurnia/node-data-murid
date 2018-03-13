@@ -2,9 +2,6 @@ var app = require('express')();
 var bodyParser = require('body-parser');
 var data = require('./data').data;
 
-app.use(bodyParser.urlencoded({ extended: true }));
-app.use(bodyParser.json);
-
 var port = process.env.PORT || 8080;
 
 app.get('/', (req, res) => res.send(data));
