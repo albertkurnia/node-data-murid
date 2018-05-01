@@ -39,4 +39,4 @@ var dataMurid = [
   }
 ]
 
-module.exports.data = dataMurid;
+module.exports = dataMurid;
